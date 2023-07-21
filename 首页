@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人主页</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: #eee;
+      }
+
+      .flex {
+        display: flex;
+      }
+      .baise {
+        background-color: white;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgyou {
+        margin-right: 8px;
+        /* 右边距 */
+      }
+      .mgshang {
+        margin-top: 8px;
+        /* 上边距 */
+      }
+      .mgzuo {
+        margin-left: 20px;
+      }
+      .daohang {
+        padding: 10px 20px;
+        border-bottom: 1px solid rgb(190, 190, 190);
+        font-size: 14px;
+        color: #666;
+      }
+      .yzhong {
+        align-items: center;
+      }
+      .xzhong {
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body class="flex">
+    <!-- 侧边栏 -->
+    <div style="width: 200px; z-index: 2" class="baise">
+      <!-- 头像栏 -->
+      <div
+        class="flex"
+        style="
+          padding: 10px;
+          align-items: center;
+          justify-content: center;
+          border-bottom: 1px solid #999;
+        "
+      >
+        <img
+          src="https://tupian.qqw21.com/article/UploadPic/2021-1/20211722215388977.jpg"
+          width="50px"
+          height="50px"
+        />
+        <div style="margin: 8px">小张</div>
+      </div>
+      <!-- 导航栏 -->
+      <div class="flex column">
+        <div class="daohang">1</div>
+        <div class="daohang">1</div>
+        <div class="daohang">1</div>
+      </div>
+    </div>
+    <!-- 主区域 -->
+    <div class="flex1 flex column">
+      <!-- 头部栏 -->
+      <div style="height: 60px; z-index: 1" class="flex baise xzhong yzhong">
+        <h1>欢迎来到三木造型的商品主页</h1>
+      </div>
+      <!-- 内容区 -->
+      <div style="overflow: auto" class="flex1 flex">
+        <!-- 左区 -->
+        <div style="flex: 3" class="flex column mg8">
+          <!-- 数据块 -->
+          <div class="flex">
+            <div style="height: 100px" class="flex1 baise mgyou">
+              <div style="margin: 0%" class="flex xzhong">
+                <h2>剪发区</h2>
+              </div>
+              <div class="flex xzhong flex1">
+                <p style="margin: 0px">
+                  <a href="C:\Users\lenovo\Desktop\前端文件夹\第一行代码.html"
+                    >点击前往</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div style="height: 100px" class="flex1 baise mgyou">
+              <div style="margin: 0%" class="flex xzhong">
+                <h2>烫发区</h2>
+              </div>
+              <div class="flex xzhong flex1">
+                <p style="margin: 0px">
+                  <a href="C:\Users\lenovo\Desktop\前端文件夹\第一行代码.html"
+                    >点击前往</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div style="height: 100px" class="flex1 baise mgyou">
+              <div style="margin: 0%" class="flex xzhong">
+                <h2>染发区</h2>
+              </div>
+              <div class="flex xzhong flex1">
+                <p style="margin: 0px">
+                  <a href="C:\Users\lenovo\Desktop\前端文件夹\第一行代码.html"
+                    >点击前往</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div style="height: 100px" class="flex1 baise">
+              <div style="margin: 0%" class="flex xzhong">
+                <h2>保养区</h2>
+              </div>
+              <div class="flex xzhong flex1">
+                <p style="margin: 0px">
+                  <a href="C:\Users\lenovo\Desktop\前端文件夹\第一行代码.html"
+                    >点击前往</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 列表区 -->
+          <div class="flex column">
+            <!-- 列表项 -->
+            <div style="height: 160px" class="baise mgshang flex">
+              <div>
+                <img
+                  src="https://gw.alicdn.com/imgextra/i4/3708760377/O1CN01oMK3UF1EeiAbSBlHP_!!3708760377.jpg_Q75.jpg_.webp"
+                  width="130px"
+                  height="160px"
+                />
+              </div>
+              <div style="margin-top: 20px" class="flex1 mgzuo">
+                <div>
+                  日本Aderans爱德兰丝防掉健发洗发水液密发露脂溢控油蓬松进口
+                </div>
+                <div style="margin-left: 50px; padding: 20px">
+                  <h3>
+                    点击进入购买页面<a
+                      href="C:\Users\lenovo\Desktop\前端文件夹\第一行代码.html"
+                      >$300</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div style="height: 160px" class="baise mgshang flex">
+              <div>
+                <img
+                  src="https://gw.alicdn.com/imgextra/i4/725677994/O1CN01iQSoA328vIqZnYvrX_!!725677994.jpg_Q75.jpg_.webp"
+                  width="130px"
+                  height="160px"
+                />
+              </div>
+              <div style="margin-top: 20px" class="flex1 mgzuo">
+                <div>
+                  潘婷乳液修护洗护套装1080g洗发水护发素拯救干枯发补水保湿柔顺
+                  1件装
+                </div>
+                <div style="margin-left: 50px; padding: 20px">
+                  <h3>
+                    点击进入购买页面<a
+                      href="C:\Users\lenovo\Desktop\前端文件夹\第一行代码.html"
+                      >$58</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div style="height: 160px" class="baise mgshang flex">
+              <div>
+                <img
+                  src="https://gw.alicdn.com/imgextra/i3/2549841410/O1CN01WGELN81MHpFJSQ1SB_!!2549841410.jpg_Q75.jpg_.webp"
+                  width="130px"
+                  height="160px"
+                />
+              </div>
+              <div style="margin-top: 20px" class="flex1 mgzuo">
+                <div>升级大包装550ml*2瓶Ryo红吕洗发水修护受损滋润蓬松洗护</div>
+                <div style="margin-left: 50px; padding: 20px">
+                  <h3>
+                    点击进入购买页面<a
+                      href="C:\Users\lenovo\Desktop\前端文件夹\第一行代码.html"
+                      >$119</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div style="height: 160px" class="baise mgshang flex">
+              <div>
+                <img
+                  src="https://gw.alicdn.com/imgextra/i3/4071218599/O1CN015x3N2E2DOOd1brP88_!!4071218599.jpg_Q75.jpg_.webp"
+                  width="130px"
+                  height="160px"
+                />
+              </div>
+              <div style="margin-top: 20px" class="flex1 mgzuo">
+                <div>
+                  【达人推荐】Living proof 缕灵丰盈蓬松控油洗护发套装 清爽蓬松
+                </div>
+                <div style="margin-left: 50px; padding: 20px">
+                  <h3>
+                    点击进入购买页面<a
+                      href="C:\Users\lenovo\Desktop\前端文件夹\第一行代码.html"
+                      >$599</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div style="height: 160px" class="baise mgshang flex">
+              <div>
+                <img
+                  src="https://gd1.alicdn.com/imgextra/i1/10771667/O1CN01mj9YDr1OBX40s0SYT_!!10771667.png"
+                  width="130px"
+                  height="160px"
+                />
+              </div>
+              <div style="margin-top: 20px" class="flex1 mgzuo">
+                <div>
+                  LivingProof full蓬松丰盈洗护控油无硅油圆满免洗干发喷雾洗发水
+                </div>
+                <div style="margin-left: 50px; padding: 20px">
+                  <h3>
+                    点击进入购买页面<a
+                      href="C:\Users\lenovo\Desktop\前端文件夹\第一行代码.html"
+                      >$350</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 右区 -->
+        <div style="flex: 1" class="flex column mgyou">
+          <!-- 提示区 -->
+          <div
+            style="height: 50px; align-items: center"
+            class="baise mgshang flex"
+          >
+            <h2 style="margin-left: 10px">掌柜推荐</h2>
+          </div>
+          <!-- 消息区 -->
+          <div style="height: 300px" class="baise mgshang flex">
+            <div>
+              <img
+                src="https://img.alicdn.com/imgextrahttps://img.alicdn.com/imgextra/i4/4071218599/O1CN01YctkbS2DOOcgkC0d9_!!4071218599-0-alimamacc.jpg_270x270.jpg_.webp"
+                width="200px"
+              />
+            </div>
+            <div>
+              <div>
+                <p>
+                  【达人推荐】Living proof 缕灵丰盈蓬松控油洗发水710ml去油蓬松
+                </p>
+              </div>
+              <div>
+                <h3>
+                  <a href="C:\Users\lenovo\Desktop\前端文件夹\第一行代码.html"
+                    >$600</a
+                  >
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div
+            style="height: 300px; align-items: center; justify-content: center"
+            class="baise mgshang flex"
+          >
+            新品上架中
+          </div>
+          <div
+            style="height: 300px; align-items: center; justify-content: center"
+            class="baise mgshang flex"
+          >
+            新品上架中
+          </div>
+          <div
+            style="height: 300px; align-items: center; justify-content: center"
+            class="baise mgshang flex"
+          >
+            新品上架中
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
